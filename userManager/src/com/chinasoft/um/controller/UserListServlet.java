@@ -22,6 +22,8 @@ public class UserListServlet extends HttpServlet {
         req.getRequestDispatcher("/list.jsp").forward(req,resp);
     }
 
+
+
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         this.doPost(req, resp);
     }
